@@ -23,4 +23,4 @@ $string = json_decode(file_get_contents('php://input'));
     $url .= '&text=' .$text_reply;
     
     
-    $res = file_get_contents($url);
+    $res = file_get_contents($url) ;
